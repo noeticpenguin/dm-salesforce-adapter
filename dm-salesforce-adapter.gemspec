@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency "dm-core",        "~> 1.1.0"
   s.add_dependency "dm-validations", "~> 1.1.0"
   s.add_dependency "dm-types",       "~> 1.1.0"
-  s.add_dependency "soap4r",         "~> 1.5.8"
+  s.add_dependency "soap4r-ruby1.9", "~> 2.0.1"
 
   s.require_path = 'lib'
   s.files        = %w(LICENSE README.markdown Rakefile) + Dir.glob("lib/**/*")
